@@ -1,0 +1,287 @@
+/*Tipography*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nova Square', cursive;
+    color:#900404;
+}
+
+p, blockquote, a, .middle-button{
+    font-family: 'Rajdhani', sans-serif; ;
+}
+
+p{
+    color: #6c757e;
+    font-weight: 600;
+}
+
+/* Navbar */
+
+.logo{
+    width:150px;
+}
+
+.nav-item{
+    width: 200px !important;
+}
+
+.nav-item > a{
+    font-weight: 600;
+    text-align: center;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Header*/
+
+.background-image{
+    background: linear-gradient(rgb(255,255,255), rgba(255,255,255,0)),url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+.heading1{
+    font-size: 100px;
+    letter-spacing: 100px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+}
+
+ .grey-mountains{
+    background-image: url(./media/mountains2.png);
+    background-repeat: no-repeat;
+    background-size:100% 85%;
+    background-position: bottom;
+    height: 100vh;
+    position: absolute;
+
+} 
+
+/*Blockquote*/
+
+.section-primary{
+    background-color:#ececec;
+}
+
+blockquote {
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+  }
+
+.blockquote-text{
+    font-size: 18px;
+    font-style: italic;
+}
+
+blockquote:before, blockquote:after{
+    color: #900404;
+    font-size: 50px;   
+    font-style: italic;    
+    font-weight: 600; 
+    position: absolute;                              
+}
+
+blockquote:before{
+    content: open-quote;
+    left: 25px;
+    top: -20px;
+}
+
+blockquote:after{
+    content: close-quote;
+    right: 115px;
+    bottom: -40px;  
+}
+
+/*Icons*/
+
+.icon-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin:150px 0 200px 0;
+}
+
+.icon-box{
+    width: 20%; 
+}
+
+.icon{
+    font-size: 50px;
+    color: #900404;
+}
+
+.wrapper{
+    border:#900404 3px solid;
+    position: relative;
+    
+}
+
+.wrapper::before{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    outline: 2px solid #900404;
+    position: absolute;
+    top:-8px
+}
+
+/* Texts and middle button */
+
+.text-wrap{
+    margin: 0 96px;
+}
+
+.heading2{
+    text-transform: capitalize;
+}
+
+.btn-box > div{
+    position: relative;
+} 
+
+.middle-button{
+    background-color: #900404;
+    border-color: #900404;
+    text-transform: uppercase;
+    border-radius: 0px;
+    width: 10%;
+    font-weight: 600;
+    position: absolute;
+    top: 350px;
+}
+
+.trees{
+    background-image: url(./media/trees2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    height: 120vh; 
+} 
+
+/* Timeline */
+
+.padding-x{
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.timeline{
+    border-left:#900404 3px solid;
+    position: relative;
+}
+
+.timeline::before{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    outline: 2px solid #900404;
+    position: absolute;
+    left:-9px;
+}
+
+.timeline-point{
+    position: relative;
+}
+
+.timeline-point::before{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    outline: 2px solid #900404;
+    position: absolute;
+    left:-21px;
+}
+
+.position-custom{
+    position: relative;
+}
+.right-aligned-trees{
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 55vh; 
+    position: absolute;
+    top: -600px;
+}
+
+/* Our Team */
+
+.padding-top-custom{
+    padding-top: 150px;
+}
+
+.team-image{
+    border-radius: 50%;
+    outline: 2px solid #900404;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.team-text{
+    font-style: italic;
+}
+
+.fa-brands{
+    color: #900404;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/* Our Benefit */
+
+.benefit-image{
+    border-radius: 50%;
+    outline: 2px solid #900404;
+    padding: 7px;
+    width: 300px;
+    height: 300px;
+}
+
+.padding-benefit-custom{
+    padding-top: 300px;
+    padding-bottom: 800px;
+}
+
+.red-trees-image{
+    background-image: url(./media/other.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+/* Footer */
+
+.padding-x{
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.padding-y{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: #8c0404;
+}
+
+.quick-links li{
+    color: white;
+    line-height: 1.7;
+}
